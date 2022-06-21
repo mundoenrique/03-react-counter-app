@@ -5,7 +5,7 @@ export default function CounterApp({ value }) {
 
 	const handleAdd = () => {
 		setCounter(counter + 1);
-	}
+	};
 
 	const handleReset = () => setCounter(value);
 	const handleSubstract = () => setCounter((c) => c - 1);
@@ -18,9 +18,9 @@ export default function CounterApp({ value }) {
 			<button onClick={handleReset}>reset</button>
 			<button onClick={handleSubstract}>-1</button>
 		</>
-	)
+	);
 }
 
 CounterApp.prototype = {
-	value: PropTypes.number.isRequired
-}
+	value: PropTypes.number.isRequired,
+};
