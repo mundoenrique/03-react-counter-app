@@ -29,3 +29,9 @@
 
 6. Asegúrense de no tener errores ni warnings
    (Cualquier warning no usado, comentar el código)
+
+## Tarea pruebas
+
+1. Debe hacer natch con el snapshot
+
+2. Debe mostrar el valor inicial de 100 <CounterApp value={100} />
