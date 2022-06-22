@@ -17,5 +17,6 @@ describe('Pruebas en <App />', () => {
 
 		expect(getByText(`${title} Enrique`)).toBeTruthy();
 		expect(h1.innerHTML).toBe(`${title} Enrique`);
+		expect(h1.innerHTML).toContain(`${title} Enrique`);
 	});
 });
