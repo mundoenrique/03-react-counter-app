@@ -33,6 +33,5 @@ App.propTypes = {
 };
 
 App.defaultProps = {
-	title: 'Sin título',
 	subTitle: 'Aprendiendo React',
 };
