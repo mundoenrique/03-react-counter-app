@@ -1,5 +1,11 @@
 # 03-react-counter-app
 
+## links de la sección
+
+[Jest](https://jestjs.io)
+
+[Testing Library](https://testing-library.com)
+
 ## Tarea
 
 1. Crear un nuevo componente dentro de la carpeta SRC llamado
