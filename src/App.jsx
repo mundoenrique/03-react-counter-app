@@ -16,12 +16,12 @@ function addNumbers(a, b) {
 export default function App({ title, subTitle }) {
 	return (
 		<Fragment>
-			<h1>
+			<h1 data-testid="test-title">
 				{title} {name}
 			</h1>
 			<h2>{subTitle}</h2>
 			<p>Arreglo {arr}</p>
-			<p>Sumar números {addNumbers(4, 5)}</p>
+			<p>Sumar números 4 + 5 {addNumbers(4, 5)}</p>
 			<pre>Objeto = {JSON.stringify(obj, null, 2)}</pre>
 		</Fragment>
 	);
